@@ -39,8 +39,6 @@ SST-2 (8:1:1 split), epoch=10
 
 ### Result Summary Table
 
-### Sparse LoRA Results (SST-2, DistilBERT, 10 epochs)
-
 | Rank | Trainable Params / Total | Ratio  | Val F1  | Val Acc | Test F1 | Test Acc | Sparsity (<1e−3) | Train Time (s) |
 |------|--------------------------|--------|--------:|--------:|--------:|---------:|------------------:|---------------:|
 | 2    | 665,858 / 67.6M         | 0.98%  | 0.9072  | 0.9004  | 0.9028  | 0.8915   | 15.55%            | 2000.22        |
