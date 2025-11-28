@@ -1,7 +1,10 @@
-# Sparse LoRA — ECE685 Final Project
+# Sparse LoRA
 
 This folder contains the implementation and experimental results for the Sparse LoRA component of our group project.\
 It extends standard LoRA by introducing L1 regularization and magnitude pruning to create sparse low-rank adaptation matrices, reducing trainable parameters and improving efficiency.
+
+
+**All scripts in `Script.ipynb`**
 
 
 ### Overview
