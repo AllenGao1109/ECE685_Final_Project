@@ -11,7 +11,7 @@ It extends standard LoRA by introducing L1 regularization and magnitude pruning 
 Sparse LoRA modifies standard LoRA by:
 1. Adding L1 penalty on LoRA weights -- encourages many LoRA parameters to shrink toward zero
 2. Performing magnitude-based pruning -- after training, the smallest-magnitude LoRA weights are zeroed out, creating sparse matrices
-3. Evaluating multiple LoRA ranks as below and compare accuracy, F1-score, sparsity, and time efficiency
+3. Evaluating multiple LoRA ranks as below and compare accuracy, F1-score, sparsity
   - r = 2
   - r = 4
   - r = 8
@@ -19,11 +19,10 @@ Sparse LoRA modifies standard LoRA by:
 4. Measuring time efficiency: 
   - total training time
   - time per epoch
-  - inference latency (ms/sample)
 
 
 ### Dataset
-SST-2 (8:1:1 split)
+SST-2 (8:1:1 split), epoch=10
 
 
 ### Workflow
