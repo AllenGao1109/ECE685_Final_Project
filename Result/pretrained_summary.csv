@@ -1,2 +1,0 @@
-Model Type,Test Accuracy,Test F1,Val Accuracy,Val F1,Total Params,Test Inference Time (s),Val Inference Time (s),Peak GPU Memory (MB)
-pre-trained (no fine-tuning),0.4210,0.0714,0.4253,0.0547,"66,955,010",14.14,14.27,331.82
