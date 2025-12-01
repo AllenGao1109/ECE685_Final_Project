@@ -1,0 +1,11 @@
+{
+  "model_type": "pre-trained (no fine-tuning)",
+  "test_accuracy": 0.42102137767220904,
+  "test_f1": 0.07142857142857142,
+  "val_accuracy": 0.4253044253044253,
+  "val_f1": 0.05471421592574499,
+  "total_parameters": 66955010,
+  "test_inference_time": 14.139431476593018,
+  "val_inference_time": 14.270450115203857,
+  "peak_gpu_memory_mb": 331.8154296875
+}
