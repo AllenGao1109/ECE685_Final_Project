@@ -4,7 +4,7 @@ This folder contains the implementation and experimental results for the Sparse 
 It extends standard LoRA by introducing L1 regularization and magnitude pruning to create sparse low-rank adaptation matrices, reducing trainable parameters and improving efficiency.
 
 
-**All scripts in `Script.ipynb`**
+**All scripts in `Script.ipynb` & `Script_IMDB.ipynb`**
 
 
 ### Overview
@@ -22,7 +22,7 @@ Sparse LoRA modifies standard LoRA by:
 
 
 ### Dataset
-SST-2 (8:1:1 split), epoch=10
+SST-2 & IMDB (8:1:1 split), epoch=10
 
 
 ### Workflow
@@ -38,7 +38,7 @@ SST-2 (8:1:1 split), epoch=10
 
 
 ### Result Summary Table
-
+- SST-2
 | Rank | Trainable Params / Total | Ratio  | Val F1  | Val Acc | Test F1 | Test Acc | Sparsity (<1e−3) | Train Time (s) |
 |------|--------------------------|--------|--------:|--------:|--------:|---------:|------------------:|---------------:|
 | 2    | 665,858 / 67.6M         | 0.98%  | 0.9072  | 0.9004  | 0.9028  | 0.8915   | 15.55%            | 2000.22        |
