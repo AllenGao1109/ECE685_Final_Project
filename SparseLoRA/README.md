@@ -4,7 +4,7 @@ This folder contains the implementation and experimental results for the Sparse 
 It extends standard LoRA by introducing L1 regularization and magnitude pruning to create sparse low-rank adaptation matrices, reducing trainable parameters and improving efficiency.
 
 
-**All scripts in `Script.ipynb` & `Script_IMDB.ipynb`**
+**All codes in `Script.ipynb` for SST-2 & `Script_IMDB.ipynb` for IMDB**
 
 
 ### Overview
