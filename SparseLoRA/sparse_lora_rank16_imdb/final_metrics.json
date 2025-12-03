@@ -1,0 +1,30 @@
+{
+    "rank": 16,
+    "train_time_sec": 1120.2005686759949,
+    "total_params": 68136964,
+    "trainable_params": 1181954,
+    "param_ratio": 0.01734673708091837,
+    "lora_sparsity_<1e-3": 0.2930840386284722,
+    "val_metrics": {
+        "eval_loss": 0.3022783696651459,
+        "eval_accuracy": 0.8932,
+        "eval_f1": 0.8958252048380804,
+        "eval_precision": 0.8864864864864865,
+        "eval_recall": 0.9053627760252366,
+        "eval_runtime": 6.5918,
+        "eval_samples_per_second": 379.262,
+        "eval_steps_per_second": 11.985,
+        "epoch": 10.0
+    },
+    "test_metrics": {
+        "eval_loss": 0.3085694909095764,
+        "eval_accuracy": 0.8904,
+        "eval_f1": 0.8911834789515488,
+        "eval_precision": 0.8765625,
+        "eval_recall": 0.9063004846526656,
+        "eval_runtime": 6.4227,
+        "eval_samples_per_second": 389.247,
+        "eval_steps_per_second": 12.3,
+        "epoch": 10.0
+    }
+}
